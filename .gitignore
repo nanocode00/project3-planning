@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+secrets.json
+credentials*.json
+__pycache__/
+.DS_Store
+private/
+
+# Individual idea drafts stay in the local planning repository.
+docs/IDEA*.md
+docs/StartFit_통합_기획안*.md
+docs/AI_백엔드_개발_도우미_주제안.md
+docs/금융 핀테크.md
+docs/창업나침반_통합_주제안.md

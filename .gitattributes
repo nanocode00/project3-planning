@@ -1,0 +1,5 @@
+# Preserve captured source bytes; review changes through manifests and curated docs.
+sources/*.html -diff
+sources/*.txt -diff
+sources/notion-*.md -diff
+sources/*.pdf -diff
