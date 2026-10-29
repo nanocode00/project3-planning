@@ -1,0 +1,2267 @@
+{
+  "review_date": "2026-10-28",
+  "timezone": "Asia/Seoul",
+  "course_root": "${COURSE_ROOT}",
+  "course_git_head": "f7dd4b9a5ed55022b312be7a7689af8d949b83a8",
+  "verification": "Static reading of notebook sources and selected PDF/script sections only; no execution of course examples, API calls, training or DB changes. Notebook outputs not used as project performance.",
+  "sources": [
+    {
+      "id": "R06",
+      "path": "4. RAG Langgraph/1. RAG 파이프라인/06강_하이브리드_검색과_RRF(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 11,
+          "cell_type": "code",
+          "source_sha256": "da75966c3069b4cc9e3c42c6c9c27b3b85304a0c4fc11a8208a455aeb697ddbc"
+        },
+        {
+          "cell_1based": 14,
+          "cell_type": "code",
+          "source_sha256": "b82b8ceaa6917864059e3a5b1c9f15ad296f0f2168d4e650972b6416c337a0b6"
+        },
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "ba6e8e5b4deb10a65e453861a655b8219d5c0c904db3bc188eb11386602891cb"
+        }
+      ],
+      "file_sha256": "c6dbe23607d2189b6c475bd140d04077cc302239cc9786a119722473e2142f73"
+    },
+    {
+      "id": "R07",
+      "path": "4. RAG Langgraph/1. RAG 파이프라인/07강_코퍼스_구축_DART_공시_수집(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 13,
+          "cell_type": "code",
+          "source_sha256": "e1533f16418d26333aed60fac51f24383a13220c2173e86b8891f03bea8acec0"
+        },
+        {
+          "cell_1based": 17,
+          "cell_type": "code",
+          "source_sha256": "59075c246f6461ef4451e35201831bcb2dc9b1ee1db7de3a1ec1e49c5917523b"
+        },
+        {
+          "cell_1based": 21,
+          "cell_type": "code",
+          "source_sha256": "6e1ce2cffc12c4efd51b2f92b4495326938efb2f7fb0e04f4037e96c79aaae25"
+        },
+        {
+          "cell_1based": 22,
+          "cell_type": "code",
+          "source_sha256": "4f6310ebbbe8bc058fcce2677efed823db38f20d6b33a64fe92e6d3931f99dd6"
+        },
+        {
+          "cell_1based": 26,
+          "cell_type": "code",
+          "source_sha256": "03365cc9c69a4cdd24fb921d807ae0d83fd006a67f0ca28d962befde6169ca40"
+        }
+      ],
+      "file_sha256": "4401ff58a90b66791d277780af07cd9af77a22116ff33ee2f1cc478d3b40cb6e"
+    },
+    {
+      "id": "R08",
+      "path": "4. RAG Langgraph/1. RAG 파이프라인/08강_청킹_전략과_크기_overlap(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 15,
+          "cell_type": "code",
+          "source_sha256": "76f6ada39aaf92b5a4477f5662fdcba644a7bd260cc8fa4ba5866f4c8268e4e3"
+        },
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "1af5bcd8bc3f7da11d72ac45994d4bd39f0239e225242e0a2088cd1004633fe2"
+        },
+        {
+          "cell_1based": 22,
+          "cell_type": "code",
+          "source_sha256": "cc6e05d3cf09a9bbea4eda89effe5a171de1c672855232932aae6dd1121acfad"
+        }
+      ],
+      "file_sha256": "c645cc89ba461210bfdc1e3e5db5d25438a957ee5a77ccf061e1be37e7c21958"
+    },
+    {
+      "id": "R09",
+      "path": "4. RAG Langgraph/1. RAG 파이프라인/09강_메타데이터와_provenance(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 14,
+          "cell_type": "code",
+          "source_sha256": "a5f0aa7c39c558a631675ae7efb3e0b54c757b08a2d4c3f6c78e670c2ba3f293"
+        },
+        {
+          "cell_1based": 20,
+          "cell_type": "code",
+          "source_sha256": "16b16f24b64ddf39295ef61267e4d8fa13507e71dfce4f87568c7d82a7238eb7"
+        },
+        {
+          "cell_1based": 30,
+          "cell_type": "code",
+          "source_sha256": "b20f29a18725040e294b7f6fc515cb28501bdacb6a21f1170fa514e19e2151ca"
+        }
+      ],
+      "file_sha256": "fa14b705d3a277c46ac09afd6742671bd1144ec23d012a20ae6fd9c97c51633c"
+    },
+    {
+      "id": "R10",
+      "path": "4. RAG Langgraph/1. RAG 파이프라인/10강_벡터DB_FAISS_Chroma_pgvector(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 24,
+          "cell_type": "markdown",
+          "source_sha256": "1da9a0ea996ddceb351601ac0f8264a5c7c31b1d971bc8a3c838ea2dd1670573"
+        },
+        {
+          "cell_1based": 25,
+          "cell_type": "code",
+          "source_sha256": "9f5233e1f4848b1cc1dc45737a58fde2ba5fcf9d50b0d38d1c86c6b3357ddff3"
+        },
+        {
+          "cell_1based": 30,
+          "cell_type": "code",
+          "source_sha256": "2639bbb5dd4c6e07d64629c87d3cf91cc8ad0243ed80de5030feed7cdf6fd42f"
+        },
+        {
+          "cell_1based": 33,
+          "cell_type": "code",
+          "source_sha256": "abcc0137b4c17a8b7472740699ad2353209305c14ff5d7dd49d02613f178b870"
+        }
+      ],
+      "file_sha256": "ad0e5a8a373bb07713145c2a7177af56a9078839fdb42c0fb17b6f2ab76cc8e4"
+    },
+    {
+      "id": "R11",
+      "path": "4. RAG Langgraph/1. RAG 파이프라인/11강_인덱스_manifest와_재현성(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 20,
+          "cell_type": "code",
+          "source_sha256": "02b3fb188ce90833e543effd6bb71eaf45a5517e2962a4ce37350d081e860753"
+        },
+        {
+          "cell_1based": 22,
+          "cell_type": "code",
+          "source_sha256": "0c18ceb132d738377a6beb1052dad98421794e9d55fe31f01d64e6ee3de98e1b"
+        },
+        {
+          "cell_1based": 32,
+          "cell_type": "code",
+          "source_sha256": "c0a527022b993d904b313381286b6ce7c3a6e42890b3cb46f4f7b186e12368c5"
+        }
+      ],
+      "file_sha256": "10b7af056ba3a5a85aba277f00b7f5e1ff4e0c3a2f57f67ffba5abfbddaf76e5"
+    },
+    {
+      "id": "R12",
+      "path": "4. RAG Langgraph/1. RAG 파이프라인/12강_리랭킹_cross_encoder(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "367a04106972b358caf43e988be8d94352eaf9b6cac99b0751d4fcfadcb4e1df"
+        },
+        {
+          "cell_1based": 36,
+          "cell_type": "code",
+          "source_sha256": "716abcfcc1d9e7b5000d7688eaac1b9fb66089a0d896aa4ddc9a916b4435fb2a"
+        }
+      ],
+      "file_sha256": "35d86745451ab560676de2abeaedfbac9cbc92a6b4faf8c04958b606994121f6"
+    },
+    {
+      "id": "R13",
+      "path": "4. RAG Langgraph/1. RAG 파이프라인/13강_검색_평가_Recall_MRR_nDCG(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 13,
+          "cell_type": "code",
+          "source_sha256": "006c37056b1c522f1418d72bfe1335cacb0cd54030b280ff451be11a62ee0181"
+        },
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "948d37c4f9bbff740594e0337a118c30945c73e88c97c4b85787f6a47f9ad683"
+        },
+        {
+          "cell_1based": 22,
+          "cell_type": "code",
+          "source_sha256": "043d53289daa1b9d039b82a3af89bd96ebaa7bec669aa53f9011c8de376047f0"
+        },
+        {
+          "cell_1based": 32,
+          "cell_type": "code",
+          "source_sha256": "873bfe61b037fe76500676d89351803d5eaa35676f4ee698fc203ecffbbdc3de"
+        }
+      ],
+      "file_sha256": "d0296b528cf542c4788ff8958398bd165d4a9a36bee5c291f9e8276f63340983"
+    },
+    {
+      "id": "R14",
+      "path": "4. RAG Langgraph/1. RAG 파이프라인/14강_검색_실패_유형_분석(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 10,
+          "cell_type": "markdown",
+          "source_sha256": "faf38adb975d1666832e0b436905b51ce4376f2d946520a97ba889b471334431"
+        },
+        {
+          "cell_1based": 12,
+          "cell_type": "code",
+          "source_sha256": "8acbc61d2b6adbc31862c1809a2a748c4a775f36153ef02d98cb8cfddd399f42"
+        },
+        {
+          "cell_1based": 13,
+          "cell_type": "code",
+          "source_sha256": "afe7970bdcfabe7f404663f75efe516250fa4dc94c7d82be9cc4973d670a9215"
+        }
+      ],
+      "file_sha256": "2b8bf2bcad03e78974c3781237e3acd7788301c185fd1ffaaba62e9ff846dfe4"
+    },
+    {
+      "id": "R15",
+      "path": "4. RAG Langgraph/1. RAG 파이프라인/15강_근거_있는_생성_citation_계약(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 16,
+          "cell_type": "code",
+          "source_sha256": "9a744e09d07275c11c4292d28e936664b6bcac1d8a54e7525efb589e768a7df7"
+        },
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "11bb94087e7767cde1354d07e01ffb9c039561e363bce13ec64885f08c44f1be"
+        },
+        {
+          "cell_1based": 21,
+          "cell_type": "code",
+          "source_sha256": "6ab3003f4d9cf9ec96b10bcac0af8dac44805011dd27411788bd790780346d32"
+        },
+        {
+          "cell_1based": 35,
+          "cell_type": "code",
+          "source_sha256": "3dbd51d23bb1ab921b32d4b6d955632ad4c1f9f64aff5a48539d3d954446bbbf"
+        }
+      ],
+      "file_sha256": "d466f68adaa44dc216f6876b2d17178b7150d7e8e4dcc97b2fe0c89278e06089"
+    },
+    {
+      "id": "R16",
+      "path": "4. RAG Langgraph/1. RAG 파이프라인/16강_no_result_처리와_거절(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "ba0aa28b4719e6862f0f9fbfefc325e31a628ffc439de063bb57ef8b75a32b71"
+        },
+        {
+          "cell_1based": 23,
+          "cell_type": "code",
+          "source_sha256": "7e82451176f376ca02499af9f913f9fe393db0d8de8cb333924f22d4621fb15c"
+        },
+        {
+          "cell_1based": 31,
+          "cell_type": "code",
+          "source_sha256": "85583b4599a8ddb23b8d4166837a7cb7f83fb4fb6ab07deb5d08329a1a04e6f2"
+        },
+        {
+          "cell_1based": 34,
+          "cell_type": "code",
+          "source_sha256": "7a49574a32760c57c7955021c07aac2b0fe40b7b0e11747f1eef16ac60faf061"
+        }
+      ],
+      "file_sha256": "6a715b04a8e9cbbec6a0603b151cb12714f0744afacb36b5ecdd2f288ec79595"
+    },
+    {
+      "id": "R18",
+      "path": "4. RAG Langgraph/1. RAG 파이프라인/18강_한국어_임베딩_실측_비교(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "a2370da7081060345f47b5563ce5c83fb4387dff6249dc80b98fbc1c8a844dc7"
+        },
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "b9ee55007c397efa4d51370c7d2e4a5fe44416fa8fb297e011f1044a2670482c"
+        },
+        {
+          "cell_1based": 31,
+          "cell_type": "code",
+          "source_sha256": "c663653662673977c815f508a7aae8cf6d4cbde693fe006ae5dc20b739770fb1"
+        },
+        {
+          "cell_1based": 34,
+          "cell_type": "code",
+          "source_sha256": "59ed1d87e3144636ecb50d0f044384872951d5ec4d864da28c94ea4fd87563e6"
+        }
+      ],
+      "file_sha256": "d6c42532d023e13d6de47fb91d920e54b363d7a4a658e38fa9cd9003a9710975"
+    },
+    {
+      "id": "R19",
+      "path": "4. RAG Langgraph/1. RAG 파이프라인/19강_청킹_A_B_실측(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 12,
+          "cell_type": "code",
+          "source_sha256": "74dc00b867e7dfebf3362cdaec7cf34c7bbdc214669524271224653c4308da96"
+        },
+        {
+          "cell_1based": 15,
+          "cell_type": "code",
+          "source_sha256": "e777bce8580d41a79945d7352ec9b88c8facd247fb0a13b9c43bf1028a744e69"
+        },
+        {
+          "cell_1based": 17,
+          "cell_type": "code",
+          "source_sha256": "2dd117cd863e0fb26acf562a4d5faae24da73003b51a41e31214a6b8e97e5dcf"
+        },
+        {
+          "cell_1based": 28,
+          "cell_type": "code",
+          "source_sha256": "f6879098acb45aac07d2e3bd36c5d53a61fcdf651ed5617207cfa924c266c7d0"
+        },
+        {
+          "cell_1based": 31,
+          "cell_type": "code",
+          "source_sha256": "1b95e1d643d90b41a82b352973af456df73ba8d52c110ab3c92bbdeab7291221"
+        }
+      ],
+      "file_sha256": "1553d14c647aee1d12f9324e2e213cbf3bb1e1afd5633fe42af3a7369f40ce9c"
+    },
+    {
+      "id": "L02",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/02강_첫_StateGraph_노드와_엣지(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 11,
+          "cell_type": "markdown",
+          "source_sha256": "6ef3c99b48f24edf658f6688beaf155e3d44d611f95bb3e14d3a95978cffdb9d"
+        },
+        {
+          "cell_1based": 12,
+          "cell_type": "code",
+          "source_sha256": "5641153592fd628238b34a2ccd6d14e410ef2aea906fbd49badb4dc8dab4df5f"
+        },
+        {
+          "cell_1based": 13,
+          "cell_type": "markdown",
+          "source_sha256": "33f8f4462479a62bf13403df7e287bca1433d4b4d6da22211a9fd813c3e6f112"
+        }
+      ],
+      "file_sha256": "4df040e2d1be6cc5cd0e894fa70a84da4e9a8456550b840a2418216f97736616"
+    },
+    {
+      "id": "L03",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/03강_조건부_엣지와_라우팅(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 10,
+          "cell_type": "code",
+          "source_sha256": "559af59a3e10a66dfab982ef46e548e941cc191b060305b49b6a3ff3273afdaa"
+        },
+        {
+          "cell_1based": 11,
+          "cell_type": "code",
+          "source_sha256": "0cf02d194067ebe9a743be897574d5cae875498009c5afe3f9023d29350660a2"
+        },
+        {
+          "cell_1based": 12,
+          "cell_type": "markdown",
+          "source_sha256": "5ad80eb659ef60dce38b1b1a317eb6056ee68dbdc085ab0f60c9c5f9bab82f77"
+        }
+      ],
+      "file_sha256": "ae1e47dd2ffe433c5adca6cfa947ad590c344b4e71a17d999f1c5824f5c32bc5"
+    },
+    {
+      "id": "L04",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/04강_State_리듀서_누적과_덮어쓰기(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 10,
+          "cell_type": "code",
+          "source_sha256": "669e0c133aa0ccb8f4d101d1cd879711af345c8f4ac5ea428e8bdf66445e4d1a"
+        },
+        {
+          "cell_1based": 11,
+          "cell_type": "markdown",
+          "source_sha256": "cd123ba092e8142f6ab54e9334c8f3e89099ddfda94c29913053434e5d5be9ad"
+        },
+        {
+          "cell_1based": 12,
+          "cell_type": "markdown",
+          "source_sha256": "5619e68cb1b53b259c14ebfbc9c9de976ae206c1c8d353401b6e88b257ce98a4"
+        }
+      ],
+      "file_sha256": "3dcf2383f816f3f6adc120bc71091225147c799a9cead24c3e6aed2e4801d1cd"
+    },
+    {
+      "id": "L05",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/05강_checkpointer_대화가_이어진다(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 12,
+          "cell_type": "code",
+          "source_sha256": "a63e09ed398a5ed73df5b3ee4ce449937e1f9e2d2d87352b03fd633733f323b4"
+        },
+        {
+          "cell_1based": 14,
+          "cell_type": "markdown",
+          "source_sha256": "d22e249df28fe89e693ef2bf3ac042c912c88f61ac839529b6b5a230c66d088b"
+        },
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "b7373b01edb3f8fa474516d0068aa4aad9cf0fa9326398cb2bbcfbf852c7dbae"
+        }
+      ],
+      "file_sha256": "6dab53381987b3993cd2d5f7e42f7d96e5fc169387fd44d4d04b18fa3c3d945f"
+    },
+    {
+      "id": "L06",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/06강_thread_id_대화_격리(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 20,
+          "cell_type": "code",
+          "source_sha256": "607aa6f7cbe849ed6630a3621d0e797fb1c4f02ba0411cab0f98bd450fe11dd6"
+        },
+        {
+          "cell_1based": 27,
+          "cell_type": "code",
+          "source_sha256": "252b543cb0751d111c9f5df3bcebdd4df391bd798b10fc6083b20f45a67ce04f"
+        },
+        {
+          "cell_1based": 30,
+          "cell_type": "code",
+          "source_sha256": "d8ad59abad99c8293bf2853f00f5adf25022de8d936354be3a689e4026de0201"
+        }
+      ],
+      "file_sha256": "5a31bc95b9d007dfc2cea4bd9e7850bb7d16ccf8861a6164d2d8018cacc6d918"
+    },
+    {
+      "id": "L07",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/07강_Store_장기_기억(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 13,
+          "cell_type": "code",
+          "source_sha256": "c55a1842d8f250a6662933f3626f629b8f607cbb4736e4df7b3df020b165d949"
+        },
+        {
+          "cell_1based": 16,
+          "cell_type": "code",
+          "source_sha256": "a7301947d9b2c80466627a2290c27bd5a037b8a7bb6ce9b6b55cc8f1cfe227dd"
+        },
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "4f96e6c589d56965de67835813763390156c4caa4cbcfbca39e23468fa875b64"
+        },
+        {
+          "cell_1based": 22,
+          "cell_type": "code",
+          "source_sha256": "b95dc3e90cf73da1d701fc4222428497677652c12021930c6be252db83944219"
+        },
+        {
+          "cell_1based": 29,
+          "cell_type": "code",
+          "source_sha256": "eea9e371623e8b79a88dcc007e5d9d5d9e42ea9e4ffe3c15d3135159d363f1bf"
+        },
+        {
+          "cell_1based": 32,
+          "cell_type": "code",
+          "source_sha256": "15ef8a6dc0d11632cbd9d4b08e73b10ad5fa3e594a71b94323f7a64d89b03cd8"
+        }
+      ],
+      "file_sha256": "9c89039e6a8953b256ca7743486e2fef519d5629bf7b5344d122811e14470ab9"
+    },
+    {
+      "id": "L08",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/08강_durability_저장_시점_선택(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 10,
+          "cell_type": "code",
+          "source_sha256": "8eac65a39685a7ab076fe720dcfea8ab3169d4fe69f739a0bf92b0c69ee19199"
+        },
+        {
+          "cell_1based": 11,
+          "cell_type": "markdown",
+          "source_sha256": "8126e6fd766f65de06cf7e28163ef9534727b32f6437e4278f9dc1d38d97613f"
+        },
+        {
+          "cell_1based": 12,
+          "cell_type": "code",
+          "source_sha256": "d06e3842cbe719ea8ecae5b9db190764a49b3e1fa3e91b0a6c88656f45f34332"
+        },
+        {
+          "cell_1based": 17,
+          "cell_type": "code",
+          "source_sha256": "58bc09a4022617655e35f749642b9611827121aeeda220324618886cf92330c2"
+        }
+      ],
+      "file_sha256": "f9cc174d7f7d299f4ef832526089d2b10d2b90bb43a2243034a2f7fd6a6e8eb9"
+    },
+    {
+      "id": "L09",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/09강_interrupt_중간에_사람에게_묻기(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 13,
+          "cell_type": "code",
+          "source_sha256": "c989730e623a7f3deaa4c36fb5078c56beb41975e50d426c92dcb898bf3cba4e"
+        },
+        {
+          "cell_1based": 17,
+          "cell_type": "code",
+          "source_sha256": "c3652e68ebda7a3e6a9ee1f4360cb9a5614d75ac5e85ffa4580f9ba13a8d87f3"
+        },
+        {
+          "cell_1based": 20,
+          "cell_type": "code",
+          "source_sha256": "01c690a7a999a8694b9e342ff4698cfb4079be939f681bf8657702fc7ee52510"
+        },
+        {
+          "cell_1based": 21,
+          "cell_type": "markdown",
+          "source_sha256": "2f9ab587955448c434d890ea4a2d2e0bb7aac74343a3af7f458cfc8718d2ae38"
+        },
+        {
+          "cell_1based": 23,
+          "cell_type": "code",
+          "source_sha256": "618cdd6a238b6dbb2d229c2c26f367f4b15add24f4e4761be0387d7fe72fcc82"
+        }
+      ],
+      "file_sha256": "16d28f41f210572fac9465418a1184f4be0dfa127a18622b00aa8faf88fd1945"
+    },
+    {
+      "id": "L10",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/10강_Command_갱신과_이동(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 10,
+          "cell_type": "code",
+          "source_sha256": "1caf366ef9fa2dba0d9879641af6ffa30edbd5c02233e9aa6ec96da022bf9a83"
+        },
+        {
+          "cell_1based": 11,
+          "cell_type": "markdown",
+          "source_sha256": "062221486f604848527a1072c3ee655875acb24842993d2093cd599c50c41959"
+        },
+        {
+          "cell_1based": 12,
+          "cell_type": "markdown",
+          "source_sha256": "9d1e52a615defdc6c8bfe56368f7c46333b37768575713e11510ec3dc236301d"
+        }
+      ],
+      "file_sha256": "e3b8788d55482bdafea46544d515eaf7aff054a7ee42198ab8e5d7618532da86"
+    },
+    {
+      "id": "L11",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/11강_재실행_부작용과_멱등성(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 11,
+          "cell_type": "code",
+          "source_sha256": "8a64748db13d800c98cc66a97f2275fa2d26e9712d05a337d82baa1d4fddc202"
+        },
+        {
+          "cell_1based": 17,
+          "cell_type": "code",
+          "source_sha256": "e2166c8a1c12bd32671e6afd0be0461da998cffc9b80090ef874d3cdc6a2c567"
+        },
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "b48b1dd5569728e4ef7671083e165efbf157bb92a3b76455befd8b2a959a50a2"
+        },
+        {
+          "cell_1based": 28,
+          "cell_type": "code",
+          "source_sha256": "375e4db15018e4926aba1947c7f76ef0ee22497de717084ee731d5f22151d70e"
+        }
+      ],
+      "file_sha256": "d2a8ea01e193967fb2feff8244b8493357605c7c57a0a09b03e68702ed0d9e5e"
+    },
+    {
+      "id": "L12",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/12강_승인_흐름_설계(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 13,
+          "cell_type": "code",
+          "source_sha256": "e92770498678211952ffac6ed615f2106c12b396bbece588fa6b0ed4d2f3d64c"
+        },
+        {
+          "cell_1based": 15,
+          "cell_type": "code",
+          "source_sha256": "9a36373984fc08e3908dd062f95be5f4a415bb924a14f9ce281f9d68d4355823"
+        },
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "32913dbbbad9b404c92fe111a0b9b3e0dab341236f1a4ba6f7c597824d825214"
+        }
+      ],
+      "file_sha256": "3ce9dd43cb523c65337bb4e85461a830f57b186884f8384e15d6318ab0ee9663"
+    },
+    {
+      "id": "L14",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/14강_서브그래프_그래프를_노드로(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 12,
+          "cell_type": "code",
+          "source_sha256": "6312e63591720a6d883dc2c861d7ae90b8bc91cd52f018991c91900d163fb6e9"
+        },
+        {
+          "cell_1based": 35,
+          "cell_type": "code",
+          "source_sha256": "d1acd447b5978a2de9c01729e8ee207f4e7de997ce54fadf1b084325f81a92d5"
+        },
+        {
+          "cell_1based": 41,
+          "cell_type": "code",
+          "source_sha256": "0ebafe1b7b8b431251778319dbbe1ac952b041504ed36ed0aed8326941897334"
+        },
+        {
+          "cell_1based": 44,
+          "cell_type": "code",
+          "source_sha256": "febf295c2af731768435fb68d6c63e973983e4ea90f392c626e4d6e95fcdd1bb"
+        }
+      ],
+      "file_sha256": "aa4332269a9dc827e946fd50b33cf9903e6487a1a201a90f4d51ae5ed7d1a8aa"
+    },
+    {
+      "id": "L17",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/17강_Agentic_RAG_검색_판단과_문서_채점(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 14,
+          "cell_type": "code",
+          "source_sha256": "8460075bdaba420e2a91b991203ba21f35ff76f086e2291678652ddc93cc2b41"
+        },
+        {
+          "cell_1based": 22,
+          "cell_type": "code",
+          "source_sha256": "e33865819de6236df7e42f7e9151eee02040a7e0c3395b81cc8fe50ee4a8d7ee"
+        },
+        {
+          "cell_1based": 26,
+          "cell_type": "code",
+          "source_sha256": "1da6b75951e21ae074fe3f82ddb73c959f44b96cc4c81ed4e00f3ee965c1d98f"
+        },
+        {
+          "cell_1based": 39,
+          "cell_type": "code",
+          "source_sha256": "14e9a42b3ab30fedf3d023ba8b996c94c7ccfeb5a6e784259a4a5684b53a728f"
+        }
+      ],
+      "file_sha256": "1d9f839f6a07aa8a4250c14013e4f4759189a5c5fefadf0ee495574fd7790834"
+    },
+    {
+      "id": "L18",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/18강_Agentic_RAG_질의_재작성과_재검색(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 23,
+          "cell_type": "code",
+          "source_sha256": "85fad620c742104c5f470879dbcbe035a0037816dc5edeee62da0a0ebc120adf"
+        },
+        {
+          "cell_1based": 24,
+          "cell_type": "code",
+          "source_sha256": "29655f29f70b4d5e937897800f545a464d4921a38b422aaa087b94dfd65db6ab"
+        },
+        {
+          "cell_1based": 28,
+          "cell_type": "code",
+          "source_sha256": "b0d11ebf78246dacb270545dc99279c7f8669d61f22cc790a88415d9e8d8e969"
+        },
+        {
+          "cell_1based": 42,
+          "cell_type": "code",
+          "source_sha256": "605b8981204c12bd9a10df2331bc242b3950414c9efa9319b8c5679ba6a7d366"
+        }
+      ],
+      "file_sha256": "e858486f7eb1a57e8a3a91b9e63dbcaaa46dbe9448f43002610fcb825bae257d"
+    },
+    {
+      "id": "L19",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/19강_Agentic_RAG_라우팅과_세_논문(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 1,
+          "cell_type": "markdown",
+          "source_sha256": "bfbd7623d31f1d7046732a98dd85573a52853349fecf3dd2debfb0c9dc15ad54"
+        },
+        {
+          "cell_1based": 2,
+          "cell_type": "markdown",
+          "source_sha256": "5a5eafee7b116cf5d07ee5606897b3fd3889f9c419295f55e9046031a9574fdb"
+        },
+        {
+          "cell_1based": 3,
+          "cell_type": "markdown",
+          "source_sha256": "5918861a14cd440ddec78f36eae0b63d2137645e16b1ec974516aab906dc6789"
+        }
+      ],
+      "file_sha256": "eabc3005fd2c48d14ea89a91d9378ecb7c35749caeb19749e05bdbff5422484c"
+    },
+    {
+      "id": "L20",
+      "path": "4. RAG Langgraph/2. LangGraph 런타임/20강_주차_캡스톤_RAG_그래프_완성(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 16,
+          "cell_type": "code",
+          "source_sha256": "f8dafd88ae9cf8f3e791bb000853c806d073e2b244855394c942db90bea0ed84"
+        },
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "4bd2acd9e7dca1c20c46f680325cd43f651ce398303b59ab8b701eb9eafae991"
+        },
+        {
+          "cell_1based": 20,
+          "cell_type": "code",
+          "source_sha256": "a83dec3b18d3b7b8b8010914e4f538a712ca5afceb5153e7606a6bfaa2a47031"
+        },
+        {
+          "cell_1based": 23,
+          "cell_type": "code",
+          "source_sha256": "96154a90209125ffd156c27f5522d5930f331e5a4e8f56c43de04f2e8f3dcae9"
+        },
+        {
+          "cell_1based": 35,
+          "cell_type": "code",
+          "source_sha256": "5325a9fcc78e206bacfa4d17b5586f02da3a11637ba777ba4c7a2cb682b5ec8f"
+        },
+        {
+          "cell_1based": 44,
+          "cell_type": "code",
+          "source_sha256": "31d9ae50555da9b37751ecb2a82c2504bb052e545437c7053f08dd2556f3c96e"
+        }
+      ],
+      "file_sha256": "5cd5307778a768a653964c48a3e5733721db0460cf86fbac744b54fa88dd52fb"
+    },
+    {
+      "id": "D01",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/01강_PyPDFLoader가_무너지는_지점(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 12,
+          "cell_type": "code",
+          "source_sha256": "fc69cc6de2224c2d142aa4dce5b040a3feef292577f4cd58689df4c58b4d18ff"
+        },
+        {
+          "cell_1based": 13,
+          "cell_type": "markdown",
+          "source_sha256": "3d6faf396a5ffcd715b50bf4a736f935237360312f5d08c997c4cb59445c8162"
+        },
+        {
+          "cell_1based": 17,
+          "cell_type": "markdown",
+          "source_sha256": "731b8e59a70c1c47f817451e469ff3b253bb44820f1a7fe5b8aff363e3a883a5"
+        },
+        {
+          "cell_1based": 20,
+          "cell_type": "markdown",
+          "source_sha256": "987d6ef51f145df1f392d2eda9118f8ef4f7b807cf31758bccab96664d664bdb"
+        }
+      ],
+      "file_sha256": "907ca6b26ca97c55560758c8f0d458b141f306741550571e09c56d03205dc333"
+    },
+    {
+      "id": "D02",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/02강_Docling_레이아웃을_이해하는_파서(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 9,
+          "cell_type": "code",
+          "source_sha256": "af9bb04ecb0b3de0a060fe586bc4fe85aa8cf18a84beff919088b4fe5e3636f5"
+        },
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "454d05ac169dcd6e5a3a5cbecb34afce061b3f1e3346882fb66a90e8010b53b2"
+        }
+      ],
+      "file_sha256": "2730d6b85404cb2d9b7e8111e3b13c29b43231daf13e61e42b1004667d3476bc",
+      "prior_fingerprints": [
+        {
+          "review_date": "2026-10-26",
+          "file_sha256": "1e58932243a313522ff6d8a8f9da09581d519f2b477530d79583222c56216588"
+        }
+      ]
+    },
+    {
+      "id": "D03",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/03강_표와_차트를_텍스트로_잃지_않기(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 7,
+          "cell_type": "markdown",
+          "source_sha256": "ccb81597b6ca7ba9749fd89a272262745589f58abe12f46f5db52eacd586fdb4"
+        },
+        {
+          "cell_1based": 11,
+          "cell_type": "markdown",
+          "source_sha256": "f14ebe0e39b01b0f990e1eba84eba2cd8abea812dc5f34e1338223751b7c7469"
+        },
+        {
+          "cell_1based": 14,
+          "cell_type": "markdown",
+          "source_sha256": "c077c5bfaa92cdd08d2a5f6084fba9c3efd0da89d8abe235480e966e6dd4ee37"
+        },
+        {
+          "cell_1based": 17,
+          "cell_type": "markdown",
+          "source_sha256": "bd7b5989461afb6e8e1dc9ef4b555543d6a90e41bdfb4e8975999b512cdeebb9"
+        }
+      ],
+      "file_sha256": "5e74d696d10590860ec62abb2e3df2c9dae7c66bc6d6d3e7c24d22b439267f56",
+      "prior_fingerprints": [
+        {
+          "review_date": "2026-10-26",
+          "file_sha256": "90afe0a3c0c9b6abd2a3487a78799a2f655e571da93d3fc534c3e9aa60ea0b14"
+        }
+      ]
+    },
+    {
+      "id": "D04",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/04강_청킹_전략_실측(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 13,
+          "cell_type": "markdown",
+          "source_sha256": "40bb0eb58b10026797ba0f32c9a8b0439096b5c1c59c34d0706deb2cfe94c725"
+        },
+        {
+          "cell_1based": 16,
+          "cell_type": "markdown",
+          "source_sha256": "52b52b93464e500a3daa44986351cc3b40274e418b6f3548ecb927d665f8bb76"
+        },
+        {
+          "cell_1based": 20,
+          "cell_type": "markdown",
+          "source_sha256": "397e5503fddb376c46bec5540dc682836104f3a9f5855f49eab913a3222ffd24"
+        }
+      ],
+      "file_sha256": "89cdf9c250ea16fa8dc0ad307a44cfd774577d4233ae616cd137982e23c7d8d5",
+      "prior_fingerprints": [
+        {
+          "review_date": "2026-10-26",
+          "file_sha256": "b5718ab644da2f2e6ffc0e6d544a9f833de14ead3cbbdd176c36fbf3db7ff2fd"
+        }
+      ]
+    },
+    {
+      "id": "D05",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/05강_provenance_이_문장이_어느_페이지에서_왔는가(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 15,
+          "cell_type": "code",
+          "source_sha256": "3b634e75053ab24950cfb2dc4daacc82446c31567266969b667c9b960caf06ea"
+        },
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "b9ef0dbdb7959e9afcc0f7be0f62393fee08accfb59a20836f8824b4a15f48f7"
+        }
+      ],
+      "file_sha256": "c9b1b9f8e48d4d138e3a9ac68bd3e3641534ec2788031bc5a8559b33b66964df",
+      "prior_fingerprints": [
+        {
+          "review_date": "2026-10-26",
+          "file_sha256": "022b04423570e496191bd6d68f98548371f551de078cadddc205b28a7c565024"
+        }
+      ]
+    },
+    {
+      "id": "D06",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/06강_한국어_문서의_함정(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 8,
+          "cell_type": "markdown",
+          "source_sha256": "d96f46053f3b1eecf5ee5a7dd08d108a302f626aba1cfb9f4f9f654bcfdc833a"
+        },
+        {
+          "cell_1based": 12,
+          "cell_type": "markdown",
+          "source_sha256": "25d4477dedfa255b5f5e3e298d41f4afd78c9019e8a544843f4f42ecb4c8517c"
+        },
+        {
+          "cell_1based": 15,
+          "cell_type": "markdown",
+          "source_sha256": "e280aff28df4ce642072a2d442895040ff0f9e6a43da902c872cc695c2968186"
+        }
+      ],
+      "file_sha256": "71d4cf9672918ff7c45e339335496cd60c1e4c144a2d3ab65c41de9f2f5d38b9",
+      "prior_fingerprints": [
+        {
+          "review_date": "2026-10-26",
+          "file_sha256": "1be88e787eb35676baab4d7a91c09e94bb7c16bd192eadaf749164418cecd77f"
+        }
+      ]
+    },
+    {
+      "id": "D07",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/07강_데이터카드_인덱스_manifest(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 10,
+          "cell_type": "code",
+          "source_sha256": "844da736196c253c38077b58946d89f194999122bf11f2f023f3c12254a71abf"
+        },
+        {
+          "cell_1based": 13,
+          "cell_type": "code",
+          "source_sha256": "cfb770510041c10158b73e852fc3da77bfa9a77c34e2918d1e5440ff74ef9491"
+        },
+        {
+          "cell_1based": 17,
+          "cell_type": "code",
+          "source_sha256": "bd73e48b7960ffc15c243ef5bbba30fa1de71a2e73055b02942809ffc8478f29"
+        },
+        {
+          "cell_1based": 21,
+          "cell_type": "code",
+          "source_sha256": "9de0ef3d1c695f6d9b70caf3b7e810bb2fdff9833dade13d814f33ef81d42fa9"
+        },
+        {
+          "cell_1based": 34,
+          "cell_type": "code",
+          "source_sha256": "7f44b62d39ecfb0f01334b6c3100741bd4a26b803d785863ef79ab205f04a2a6",
+          "prior_fingerprints": [
+            {
+              "review_date": "2026-10-26",
+              "source_sha256": "f032bcde5d980374800cbf6b64813a58bb4eb1312d1acc63f835b21fd43e618b"
+            }
+          ]
+        }
+      ],
+      "file_sha256": "cdbc72394e153814d0653d20fa55a959dcecdba3544c17145da8f4c7c60f912f",
+      "prior_fingerprints": [
+        {
+          "review_date": "2026-10-26",
+          "file_sha256": "941342121f5acfb69f0e4114bfc6b9b4726e5150cc9fc9c25477b5d34ad1b33a"
+        }
+      ]
+    },
+    {
+      "id": "D08",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/08강_대규모_인덱싱_검색평가_리랭킹(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 16,
+          "cell_type": "code",
+          "source_sha256": "62fb7336b62b4eacfc1814a5de1d36f276f84673f80daac34df32ae865846f34"
+        },
+        {
+          "cell_1based": 18,
+          "cell_type": "markdown",
+          "source_sha256": "b6f04f85c0db0900269c36719d7fce8bd653b5761c58545459daf29e141b2edc"
+        },
+        {
+          "cell_1based": 24,
+          "cell_type": "code",
+          "source_sha256": "a6eca3b446a117409397078791e210da19c11f0e6101b9b9eff32e35d1460fbd"
+        },
+        {
+          "cell_1based": 26,
+          "cell_type": "code",
+          "source_sha256": "baa6fdd4a68ca7ec3bf1225bff44bc07e0de297f313d3f0b5a4899f6dc025787"
+        },
+        {
+          "cell_1based": 34,
+          "cell_type": "code",
+          "source_sha256": "649f639d458e9bb76e8a4bc74196d4e04db328fab49c5b35289d9b8b6212df6d"
+        },
+        {
+          "cell_1based": 40,
+          "cell_type": "code",
+          "source_sha256": "89591b6a44dd1945223c5f30bd00cb35ac50c4cc33f244b3a786e4a20fe9afe8"
+        },
+        {
+          "cell_1based": 44,
+          "cell_type": "markdown",
+          "source_sha256": "8064b667b81ce9a3ca139bd2e0c0fa3035e1525e46fe1d2ac9999d7f5594e563"
+        },
+        {
+          "cell_1based": 47,
+          "cell_type": "code",
+          "source_sha256": "aac3d85a7e82351db532787a530362c14f59362a475dc160f1d14b94481aaf08"
+        }
+      ],
+      "file_sha256": "9125a358ac483e1c268476254147dacda448328a66e8ead2dfa55b5293415838",
+      "prior_fingerprints": [
+        {
+          "review_date": "2026-10-26",
+          "file_sha256": "d08ad033578c8a421bd7b6ace16c5e4ca32d731242fc6a28d604d8573006d54c"
+        }
+      ]
+    },
+    {
+      "id": "D09",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/09강_문서_인덱스를_pgvector로_출처가_남는_벡터DB(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 13,
+          "cell_type": "code",
+          "source_sha256": "eba7e58244ca19764fd98ccf45fcc2e7aed92ef59d6a11ef996aee07e072c581"
+        },
+        {
+          "cell_1based": 17,
+          "cell_type": "code",
+          "source_sha256": "3df6f2407e44211176a901885febed5a3e784cb60f000c0d24a2870cafc3503f"
+        },
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "3350e8772793fd7c1d34c4a0c6f3452ffec80312296cbecc59c78eb958462176"
+        },
+        {
+          "cell_1based": 20,
+          "cell_type": "code",
+          "source_sha256": "2733ce8888e2d8087e493e120523e4b59c32aa4e4d59a63d8c8f43e54d0a09a3"
+        },
+        {
+          "cell_1based": 44,
+          "cell_type": "code",
+          "source_sha256": "620e6261b8c244c4f86cd405479ae46c3510bb1c58705c1058bc6aa8438e2654"
+        },
+        {
+          "cell_1based": 51,
+          "cell_type": "code",
+          "source_sha256": "146408b9a08a9c166c89734bc36c781f047769d739e1e08631e2302b963899eb"
+        }
+      ],
+      "file_sha256": "c2adf4af63a8339de108ee0a7948d773bbd27d84e51a8e78039c95ebe53a474a"
+    },
+    {
+      "id": "D10",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/10강_판정자는_사람과_얼마나_같은가_일치도와_사전등록(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 14,
+          "cell_type": "code",
+          "source_sha256": "ad9be80f1a03c9ec83b3cffe8d70ba9fee8ec76d45df702a1684058d6ec2c326"
+        },
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "108ab4a112ca53dca6c73b9e39419fdacdb163b8fc77fb4b3fee2c31529ade39"
+        },
+        {
+          "cell_1based": 20,
+          "cell_type": "code",
+          "source_sha256": "d3f03f52315f1b5c88e16e55dbf8dfe1ce125953f1cbaed769e80c878725201c"
+        },
+        {
+          "cell_1based": 32,
+          "cell_type": "code",
+          "source_sha256": "a3f3a38ed2ec28a2eeb4aa0f2de120ca4a40e9c9be988abbc8501b6693851986"
+        },
+        {
+          "cell_1based": 63,
+          "cell_type": "code",
+          "source_sha256": "2e5c6dc98acddeda7e4352aed8c09fe230f2d6768cb9d4a22e9b6f48fef3367b",
+          "prior_fingerprints": [
+            {
+              "review_date": "2026-10-26",
+              "source_sha256": "17fb93ef0f52b88abb987339f6f552c3de2337fd082fffb4e93e9ce283929d6e"
+            }
+          ]
+        }
+      ],
+      "file_sha256": "1c91002902237e8a8abe5b9238108493bcfc66a35e5231f36a1ca22cea5aff99",
+      "prior_fingerprints": [
+        {
+          "review_date": "2026-10-26",
+          "file_sha256": "b17b40cc0ed4e4ab1ba8135e9e83d3e2233193bebe00c8e8792ea250f0736169"
+        }
+      ]
+    },
+    {
+      "id": "D11",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/11강_OCR_스캔_문서를_텍스트로(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 14,
+          "cell_type": "code",
+          "source_sha256": "0961ac03ac733bf1a3964faa05f6f9918fc84248de6588d988077754cc3736f7"
+        },
+        {
+          "cell_1based": 21,
+          "cell_type": "code",
+          "source_sha256": "7908b56c7ee788f38ed14cd62dd2767cf1431cfa6bf734915036c2b226dbe50a"
+        },
+        {
+          "cell_1based": 27,
+          "cell_type": "code",
+          "source_sha256": "2ded28fbd7a52670c8d5a7e51ff33d1fd6098d47c29ea1147a95ebc78adb02c3"
+        },
+        {
+          "cell_1based": 36,
+          "cell_type": "code",
+          "source_sha256": "b7b461f887ffff4d2a9813c79bac421b6c1a35d2994a7cfb9c5d64a363168a04"
+        },
+        {
+          "cell_1based": 63,
+          "cell_type": "code",
+          "source_sha256": "d7dd22efae4ac6bceeb61bad99bfe64b9cf588448e231ec753ade7631ecfe95f",
+          "prior_fingerprints": [
+            {
+              "review_date": "2026-10-26",
+              "source_sha256": "c2a36934d84eb2d4dc9617af4df3486bbd35b6ae74847dc47c12e49d1748d930"
+            }
+          ]
+        }
+      ],
+      "file_sha256": "70fb0d50679344e88a9f74ecabd208a04639bcdeaed435d6a1e91d26bc815602",
+      "prior_fingerprints": [
+        {
+          "review_date": "2026-10-26",
+          "file_sha256": "2373781e3ac665c2b0ce1bc293104b24648dddda12fcd6abbe847d69fc2cac6c"
+        }
+      ]
+    },
+    {
+      "id": "D12",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/12강_VLM_표와_차트를_읽고_숫자를_원문과_대조하기(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 11,
+          "cell_type": "code",
+          "source_sha256": "1d035bbe3486631e6e76742c5207f66e89ffc39277e6d0e3ef3fbda6651dd55a"
+        },
+        {
+          "cell_1based": 27,
+          "cell_type": "code",
+          "source_sha256": "87064e036279309f7dd8c8988308faefdb01b02c0e0cadbdc7e512fce0eb16ca"
+        },
+        {
+          "cell_1based": 33,
+          "cell_type": "code",
+          "source_sha256": "53c7b878e6ac2ee59f565e75df47e2d797a3df196c979961f394d150f55e1a0f"
+        },
+        {
+          "cell_1based": 62,
+          "cell_type": "code",
+          "source_sha256": "df12f14df94d98a96f919f98d3adb7d5d38ef5c832a09bcdaae984565fdc5441"
+        },
+        {
+          "cell_1based": 77,
+          "cell_type": "code",
+          "source_sha256": "3c07e0eeb715f2c3f36c599805ccdb6afa4e3c511d3ffb94c2c2121eb7d26baf",
+          "prior_fingerprints": [
+            {
+              "review_date": "2026-10-26",
+              "source_sha256": "d7380cdfb623f84736a8b6f01b197cc24d4456ca459f9377bd564d3156116f69"
+            }
+          ]
+        },
+        {
+          "cell_1based": 80,
+          "cell_type": "code",
+          "source_sha256": "71b5f36750cdd8f2c9377d77bd53695222d1c14203536b49ae29824c73208028",
+          "prior_fingerprints": [
+            {
+              "review_date": "2026-10-26",
+              "source_sha256": "375103b75cc4fafd2ae7931db64819a3e74fd7fdfdb24ef4ba5b9db58eff66d6"
+            }
+          ]
+        }
+      ],
+      "file_sha256": "ff8e558c2b1a15ed3b963548561a8a3e7e573cd6c2bec256b4d5cda6eb77591d",
+      "prior_fingerprints": [
+        {
+          "review_date": "2026-10-26",
+          "file_sha256": "376634c3d454782e5c381389d808150a8693b935826b85a2dfc5a5a61449dce6"
+        }
+      ]
+    },
+    {
+      "id": "D13",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/13강_증분_동기화_새_문서_바뀐_문서_사라진_문서(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 11,
+          "cell_type": "code",
+          "source_sha256": "76127347239848e4588b49d47293d7c8ca29af4240951300468f017b6102d364"
+        },
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "6adb42746619602ecb6b2704f5381a2347038a171715b8d8732d34d8051f63b5"
+        },
+        {
+          "cell_1based": 27,
+          "cell_type": "code",
+          "source_sha256": "68d99e93e65e4dc8b29b27d2f57b02df393200ac3443576071ac7e498dbd517e"
+        },
+        {
+          "cell_1based": 39,
+          "cell_type": "code",
+          "source_sha256": "b1433bb7a12c86085773284ff8737aeac17005597ad1a1876d849f23a3d6cb66",
+          "prior_fingerprints": [
+            {
+              "review_date": "2026-10-26",
+              "source_sha256": "8380660f636130d77427cdacbb3ae90c310985e8f4a6041b036ced8c4405717f"
+            }
+          ]
+        }
+      ],
+      "file_sha256": "38771b534d25fa3ea06c696b22ed046021f1480db9ce329f88340014ed5bc486",
+      "prior_fingerprints": [
+        {
+          "review_date": "2026-10-26",
+          "file_sha256": "67fba7d0288eb7a768787b9ebee9ffb4ca7846e413929ae676ba246f924f21c3"
+        }
+      ]
+    },
+    {
+      "id": "D14",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/14강_증분_동기화를_Postgres에_트랜잭션과_멱등성(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 13,
+          "cell_type": "code",
+          "source_sha256": "8bed511662b6c9e0a5059f64786884758003703cfdbc60bef2dcd34c95e95268"
+        },
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "263cbd57e2aaed1567db8b1ae397f06879d36b0c9416689db09aa20b24a5af83"
+        },
+        {
+          "cell_1based": 25,
+          "cell_type": "code",
+          "source_sha256": "48cefe6778c518e95365e9fd1abf1d2a79a103bf5fafa9618a4b15be84dedd8f"
+        }
+      ],
+      "file_sha256": "1dd71f8fb5d6165555d0e239c3b5533fd02b3d6a6d99fd7161668ea34665c58b"
+    },
+    {
+      "id": "D15",
+      "path": "4. RAG Langgraph/4. 특강/문서_파이프라인_00-08강/15강_문서_파이프라인_캡스톤_증거_서비스(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 12,
+          "cell_type": "code",
+          "source_sha256": "2ff954ba1491c1477996ac1cebe31e7acf4da4968ee88a05a03376e7ec9293c5"
+        },
+        {
+          "cell_1based": 17,
+          "cell_type": "code",
+          "source_sha256": "b62982148fda1c3265785a9a56f430ce20df268e820064ff65021994a240c5d6"
+        },
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "2c3273c1ca65636e95023a216210e2efca69354698be666ec37f91c12b1ba3c1"
+        }
+      ],
+      "file_sha256": "f4a1f869ddc16b12566d603c836cb03fcba037c3e48ca3fae4f09f97038bf92d"
+    },
+    {
+      "id": "A23",
+      "path": "3. AI Agent/2. Agent런타임과 MCP/23강_멀티에이전트_Supervisor(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 16,
+          "cell_type": "code",
+          "source_sha256": "3ebd0f70bc8820ed3eaba1063e2054bcc0d2f57923c2e2b4ffa6c22a0fb576f6"
+        },
+        {
+          "cell_1based": 20,
+          "cell_type": "code",
+          "source_sha256": "9f3255bb6a996ce4ec75c7b2d197e3713178c639247ebc615db5d197c50efc65"
+        },
+        {
+          "cell_1based": 21,
+          "cell_type": "code",
+          "source_sha256": "4dc711cbc8420b564606162396964104bad57ba5100b5e089cf3a4b071614cc4"
+        }
+      ],
+      "file_sha256": "beb5d4d19b41f048d212662b8225f122c72084472412cc30c9720f89bdb287f7"
+    },
+    {
+      "id": "A17",
+      "path": "3. AI Agent/2. Agent런타임과 MCP/17강_MCP_서버_만들기(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 8,
+          "cell_type": "markdown",
+          "source_sha256": "8b6b336f9d139a380bdebc57f9299cb02dadf0cc9eb5b77701849d2e59c3edac"
+        },
+        {
+          "cell_1based": 9,
+          "cell_type": "code",
+          "source_sha256": "6f49c8982bd66605a6a0e5265cea8e70a584cd27ba64bca5d11a09a64bc2005e"
+        },
+        {
+          "cell_1based": 17,
+          "cell_type": "markdown",
+          "source_sha256": "b6d8a80455f6042368614fcb837aad13ff7f03f686fb0f94ba975431d394f1d2"
+        },
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "5058cfc336e0060d803880b53de160f3f1623fcbd195f0e8c5ef2862d92d2f5a"
+        },
+        {
+          "cell_1based": 21,
+          "cell_type": "markdown",
+          "source_sha256": "6a50ee45a03b566ffce17523cae06bb912e0c47979c4f53d41d4f547fca9dc91"
+        }
+      ],
+      "file_sha256": "a43a47214d53cf048f59be6cdd38c259be24101f61bd64270c89233aa98340b8"
+    },
+    {
+      "id": "A18",
+      "path": "3. AI Agent/2. Agent런타임과 MCP/18강_MCP_클라이언트_여러_서버(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 8,
+          "cell_type": "markdown",
+          "source_sha256": "27d8be03ea7a07247548ab776a81c10a5b73585267c5e89653c866fa06029f7f"
+        },
+        {
+          "cell_1based": 12,
+          "cell_type": "markdown",
+          "source_sha256": "8f7d04fec7cc8e856d3dec6a86a224c95febdc0dbbbccd336a6bbe04cce1a2d4"
+        },
+        {
+          "cell_1based": 15,
+          "cell_type": "markdown",
+          "source_sha256": "4ed215826ba9bcec09b72bfc8617e138d2c033320d406970cee7b3745fcefcc0"
+        },
+        {
+          "cell_1based": 18,
+          "cell_type": "markdown",
+          "source_sha256": "0ef08b7500db47561e500f9fb53dbb0e74b406ae5d04237f8f4d40179c6026ba"
+        }
+      ],
+      "file_sha256": "7f3e8c9ec745252ab3f09a8d6e7a26bb6c2080b52a14d3ae6b27ed66bfd0339f"
+    },
+    {
+      "id": "S11",
+      "path": "3. AI Agent/3. 메모리-컨텍스트와 신뢰성/11강_prompt_injection_체험(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 15,
+          "cell_type": "code",
+          "source_sha256": "863b19e968a3234b39811a49831fdbc3e8d649dbd95347f1e668b59de7b79517"
+        },
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "b932d614c1e9f29426611a44f92e9e78cd39c24a97638983d02f84fff8aaf9da"
+        },
+        {
+          "cell_1based": 25,
+          "cell_type": "code",
+          "source_sha256": "3885ef93a7685f5394151f0f091f9aa2b925532e3962213488916733e8cd0f4e"
+        }
+      ],
+      "file_sha256": "c0ada203340130e60bf2e559a56a5fb02f7eddddd73cbc3f3d69747cea817456"
+    },
+    {
+      "id": "S12",
+      "path": "3. AI Agent/3. 메모리-컨텍스트와 신뢰성/12강_방어의_한계_HITL(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 12,
+          "cell_type": "code",
+          "source_sha256": "6c3dcfe7e442edb88afb345135cb4b42067afada2071de0b36a97d3407dcb846"
+        },
+        {
+          "cell_1based": 15,
+          "cell_type": "code",
+          "source_sha256": "8efa064865799c731115052cfa1f181a3c31bba978a7a36a8f4e39a4a67d2797"
+        },
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "18cff74109f09af2c9c7d77e2a9cd971a35765b79e8da7fec60c39fbef308032"
+        },
+        {
+          "cell_1based": 21,
+          "cell_type": "code",
+          "source_sha256": "6af2c71ca06420b3f80915ed246ff4bda36a6569164588ff8162aa455d32a9f4"
+        },
+        {
+          "cell_1based": 24,
+          "cell_type": "code",
+          "source_sha256": "09906877b9fe5ff1d52db30126707e07dd961660aefc142c46fe53c42c6993f2"
+        }
+      ],
+      "file_sha256": "f22a0791f47c0489ee5936aa4abeafd4308eb05cd0b6e90b8580721501bb00b3"
+    },
+    {
+      "id": "S14",
+      "path": "3. AI Agent/3. 메모리-컨텍스트와 신뢰성/14강_agent_평가_지표(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 9,
+          "cell_type": "code",
+          "source_sha256": "635e86279de3e23d3a420362efd602f2e2b91f773bea565f5b6708734f64ddc8"
+        },
+        {
+          "cell_1based": 20,
+          "cell_type": "code",
+          "source_sha256": "40d6a4b75dbaf0e33b21621c0bab3c0f0bab6f24a7c4e97070493e12a7b37b42"
+        },
+        {
+          "cell_1based": 23,
+          "cell_type": "code",
+          "source_sha256": "696aec26bf8548127f3a64607495bbb54aa3d2937896478a4e3d158655807b25"
+        },
+        {
+          "cell_1based": 27,
+          "cell_type": "code",
+          "source_sha256": "ed0d4d7cc2ebbbc9a502490a2f765588c01148f7dea3438da1f7d3e7931238a7"
+        }
+      ],
+      "file_sha256": "d93f1aab2cf655047c9e2c31993bc2edd3acccb5babb6bc65ac86cdd2d3de290"
+    },
+    {
+      "id": "S15",
+      "path": "3. AI Agent/3. 메모리-컨텍스트와 신뢰성/15강_평가셋_트레이스_관측(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 10,
+          "cell_type": "code",
+          "source_sha256": "5a5709623ba52fc5f5b3aa99e550d739da456318eacff5a8adb9d7fc75acf826"
+        },
+        {
+          "cell_1based": 11,
+          "cell_type": "code",
+          "source_sha256": "4d4075c716f1bcdb185bff4e34970615a08eff940644f73223a92f7366b92f82"
+        },
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "e2e069a7a8012a6e411e81f524070ddf17ba97265a288277e297f660b5529124"
+        },
+        {
+          "cell_1based": 24,
+          "cell_type": "code",
+          "source_sha256": "ffaad8295a653764ff3d00195e1b07df3c62d7c585bd9ee4deaec5b1a6e3e2b4"
+        },
+        {
+          "cell_1based": 33,
+          "cell_type": "code",
+          "source_sha256": "94882116223457f13602333498fba6b79e8746d698aac7a7c153fb0a0071108f"
+        }
+      ],
+      "file_sha256": "2d612499cb68e6bfa3faee8bbaa2df82b8f04637034b5933e016f7e5bd04e48e"
+    },
+    {
+      "id": "PM",
+      "path": "(특강)AI 프로젝트 실무와 취업가이드_260901.pdf",
+      "kind": "pdf",
+      "location": "PDF p.78~87, 119, 127~131",
+      "file_sha256": "554543ef2b5dc94515cea118af2c19c1819f4a3e6bed3f243797ad3099e0c7b8"
+    },
+    {
+      "id": "DOCKER",
+      "path": "3. AI Agent/Practice_Docker/[실습3] Docker Compose.pdf",
+      "kind": "pdf",
+      "location": "PDF p.18~29",
+      "file_sha256": "b55513d93b7f957935ef4f66d86a085baf436208f117df4333ad16fbec7bbaa9"
+    },
+    {
+      "id": "GCP",
+      "path": "3. AI Agent/Practice_Docker/Google Cloud Platform deck.pdf",
+      "kind": "pdf",
+      "location": "PDF p.4~6, 12~14; 계정/CLI 사전 준비",
+      "file_sha256": "f3140d10799ac80132fc5b6acd6dc750d4ddf1d974a9644c12284b520dda8866"
+    },
+    {
+      "id": "FASTAPI",
+      "path": "3. AI Agent/Practice_FastAPI/FastAPI deck for KDT.pdf",
+      "kind": "pdf",
+      "location": "PDF p.17~26",
+      "file_sha256": "a723d38ca329dee958f05e239a606312f475acfc3eeab2facc47b6900548efc2"
+    },
+    {
+      "id": "LF",
+      "path": "3. AI Agent/Practice_Langfuse/Docs/Langfuse deck for AI agents.pdf",
+      "kind": "pdf",
+      "location": "PDF p.10~11, 18, 21~23, 33~36",
+      "file_sha256": "f42f667339d31dda0193f16a32d24fc2831c3cf3010ed441bb866d45d561f1b3"
+    },
+    {
+      "id": "LF-README",
+      "path": "3. AI Agent/Practice_Langfuse/Practice/README.md",
+      "kind": "md",
+      "location": "B-1~B-7, C-2~C-4 설명; 교안 md 자체는 로컬에 없음",
+      "file_sha256": "e78c1dba77d7294faf97ec5314ab7a0f33b748f51ea51cc420868bc501bd76a6"
+    },
+    {
+      "id": "LF-AGENT",
+      "path": "3. AI Agent/Practice_Langfuse/Practice/agent_observed.py",
+      "kind": "py",
+      "location": "agent/tool observation 예제; tool span은 호출 후 생성됨",
+      "file_sha256": "24d7a8b46c520a7e240d3db782474ec04016bcdcc3fc1f8de1ff50ae8f9c50ae"
+    },
+    {
+      "id": "LF-EVAL",
+      "path": "3. AI Agent/Practice_Langfuse/Practice/eval_dataset.py",
+      "kind": "py",
+      "location": "run_agent, used_expected_tool, grounded_in_calculation, run_experiment",
+      "file_sha256": "3b6e5999524ba811073693e4dcbdef83d533d4d64390d545bee9b2654b40fd05"
+    },
+    {
+      "id": "LF-SCORE",
+      "path": "3. AI Agent/Practice_Langfuse/Practice/score_retry.py",
+      "kind": "py",
+      "location": "create_score, flush, 점수 조회 polling",
+      "file_sha256": "c91487ab0c692a0a03ee4ac914071cc9493c096b8b859e0bc161934a446e8e7d"
+    },
+    {
+      "id": "MCP-README",
+      "path": "3. AI Agent/Practice_MCP/README.md",
+      "kind": "md",
+      "location": "STEP8 계약검사·STEP10 Skill/reference 분리 설명",
+      "file_sha256": "2c0c6a99113654cb93f0bf13d2de956068ed5b86779b04cf8d02cff04edb05c5"
+    },
+    {
+      "id": "MCP-CHECK",
+      "path": "3. AI Agent/Practice_MCP/verify_contract.py",
+      "kind": "py",
+      "location": "declared_not_built, main, exit status",
+      "file_sha256": "798d47e12e810889c148359232392d0277b5563ddcc8559a86a3cfecfe95dbdb"
+    },
+    {
+      "id": "SKILL-EX",
+      "path": "3. AI Agent/Practice_Azure/skills/site-analysis/SKILL.md",
+      "kind": "md",
+      "location": "도구 순서·판정 reference·답변 형식·금지 범위의 문서 예시",
+      "file_sha256": "9fcc84d84856279734523cebb2f1f0a98087e9941ed952883a8e74239a93958c"
+    },
+    {
+      "id": "GRAPH02",
+      "path": "4. RAG Langgraph/5. 실습/graphrag-practice/step02_vector_limits.py",
+      "kind": "py",
+      "location": "집계·다홉·최신순 질의와 벡터 검색의 차이",
+      "file_sha256": "fd1d893c04cc2cd09c7926c75e0c48b7dd1db98b3165011cc6af548c3be33624"
+    },
+    {
+      "id": "GRAPH05",
+      "path": "4. RAG Langgraph/5. 실습/graphrag-practice/step05_hybrid.py",
+      "kind": "py",
+      "location": "VectorRetriever, VectorCypherRetriever, retrieval_query",
+      "file_sha256": "97d8247d458ce0bfe0edffe9137a1e7b9527c08ee7642f6e0d989ebe1ae51ef8"
+    },
+    {
+      "id": "GRAPH08",
+      "path": "4. RAG Langgraph/5. 실습/graphrag-practice/step08_cost.py",
+      "kind": "py",
+      "location": "추출·임베딩 비용/처리시간 비교",
+      "file_sha256": "aec58695850588ec7b6ac7c10ecb52690537853b14d525476b01f8cf3fcae1fd"
+    },
+    {
+      "id": "N8N",
+      "path": "3. AI Agent/Practice_N8N/n8n-practice-workflow/4_rss_summary_sheets.json",
+      "kind": "json",
+      "location": "Schedule Trigger 및 errorWorkflow 참조; 기존 인스턴스의 credential/workflow는 별도 설정",
+      "file_sha256": "f1ee6d81f5c51e8ad4a2ee1c39c79c4643a62b081c086aefe09585311b5975da"
+    },
+    {
+      "id": "FT03",
+      "path": "2. Transformer/3. Finetuning/03_생성모델_파인튜닝과_LoRA_비교.ipynb",
+      "kind": "ipynb",
+      "location": "cell10,14,16,19: Full FT/LoRA 같은 시작 모델·학습조건 비교",
+      "file_sha256": "0c732f6a208770a82b8e8ee4091dac9af00034b5bc90656fb219abc54e5d021a"
+    },
+    {
+      "id": "FT11",
+      "path": "2. Transformer/3. Finetuning/11_제주어_도메인적응_CPT와_QLoRA_SFT.ipynb",
+      "kind": "ipynb",
+      "location": "cell15,25,28,30~33: group split·동일held-out·실제CUDA학습과sample분리",
+      "file_sha256": "791e46e355f1db73ee20f48308f05d72c42314ff643b26f6d1cd1ce1e8ad7ef5"
+    },
+    {
+      "id": "W01",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/01강_RAG_평가는_왜_한_숫자가_아닌가(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 18,
+          "cell_type": "markdown",
+          "source_sha256": "033118f6d523dc41f14a1bd7cff53935356dabc1036cb2e381efbc9e90a65b23"
+        },
+        {
+          "cell_1based": 23,
+          "cell_type": "code",
+          "source_sha256": "fe16f5c8adb491571d9998acb50ae619b4f0761113de2e8815ba941b48eb5e9b"
+        },
+        {
+          "cell_1based": 27,
+          "cell_type": "code",
+          "source_sha256": "462b628afd3dd66ff51be5a3bd5092a94254ac46fc161e8aae2e8196884af596"
+        }
+      ],
+      "file_sha256": "789a442ab7a56b9c355a0a56525c612503db3f9984a824821bfb3f6beffd6dc1",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W02",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/02강_검색_평가와_생성_평가_분리(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 16,
+          "cell_type": "code",
+          "source_sha256": "3bb136db9352eeb517ffa521590f295b8adae4a4da00744e68c9e7b3551acbd7"
+        },
+        {
+          "cell_1based": 23,
+          "cell_type": "markdown",
+          "source_sha256": "c769cbcae21f7e50bb90ca6fe05546773ebdbef992183be0efd74ecb29b38c47"
+        },
+        {
+          "cell_1based": 25,
+          "cell_type": "code",
+          "source_sha256": "7875cd1d3e2fd909d812f097aeacb3171d3de6727e51a21b6263f9e0b0c50815"
+        },
+        {
+          "cell_1based": 36,
+          "cell_type": "code",
+          "source_sha256": "626025304dd2934d1e21f9c99c6c851d556a7042fb3e6c8fda4f6c91db9b7f0a"
+        }
+      ],
+      "file_sha256": "fb7702d8f59b14dab693191ddd6885768a4a43691e35c5984b69ef7c9a5b8ecf",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W03",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/03강_RAGAS_실제로_실행하기(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 15,
+          "cell_type": "code",
+          "source_sha256": "6347c1effe156c33f190cd1adf5b1eba88aa644a23af2a5a6f16f94dec002167"
+        },
+        {
+          "cell_1based": 21,
+          "cell_type": "code",
+          "source_sha256": "3bcdcba6812a923865785c9272b7904ddcb5d62cb461398bcbee614e6895cab4"
+        },
+        {
+          "cell_1based": 25,
+          "cell_type": "code",
+          "source_sha256": "c6eb27ec505630002715491df20b96542e45a877e43ac18b9c314428df9a0e60"
+        },
+        {
+          "cell_1based": 28,
+          "cell_type": "code",
+          "source_sha256": "d5b262a7a04e743529ef7e058de2c2729a64f58f5c7cc0c1eed3b65ed662cbc2"
+        }
+      ],
+      "file_sha256": "e7d7a3735a5c410d9b61bf57030468c07642ae178dbe399275ce447549aa884c",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W04",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/04강_gold_set_설계(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 20,
+          "cell_type": "code",
+          "source_sha256": "e3910b6cad76b6f8c6dda7442cd5d1365fb65c27d3d64ec288e89d5c42f6d62c"
+        },
+        {
+          "cell_1based": 22,
+          "cell_type": "code",
+          "source_sha256": "cf7662586d41d6be4ede3a4c5e553cf83a8cb5ad393201767610f2af9eb36c2f"
+        },
+        {
+          "cell_1based": 27,
+          "cell_type": "code",
+          "source_sha256": "beebfd51e737e74f661fbd86a1c8485da6559fc9ebe9c862bb45f13c217a0574"
+        }
+      ],
+      "file_sha256": "c1e8ed82870a03dcc58be025341ac4edbec7e64f9fa5f1012843d232333e3d7b",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W05",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/05강_LLM_judge_고정하기(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 16,
+          "cell_type": "markdown",
+          "source_sha256": "e18f27004bff8344c522144b137f8b981a2a4f1d3e00aa408f700aa20a7479fa"
+        },
+        {
+          "cell_1based": 20,
+          "cell_type": "code",
+          "source_sha256": "ad2fd3c71d96f90351c23f8e2a6fdceb240c0dab978e9787aefceb536e1d74bc"
+        },
+        {
+          "cell_1based": 26,
+          "cell_type": "code",
+          "source_sha256": "12f5413aa04d8653f8d0c2e7df2808779fb66e6ec0c2142645e62489f5c111ff"
+        },
+        {
+          "cell_1based": 41,
+          "cell_type": "code",
+          "source_sha256": "0c1287613f9886b1fb06a68bc1ff525d0302cf2daa5b176afd399d2492402f7e"
+        }
+      ],
+      "file_sha256": "ed008871f7f72081a273ff18193e598b5d18f717a00396fe382ae221cd7f4f4b",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W06",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/06강_회귀_baseline_만들기(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "6a25af459320a9c407517e4077b9edc3e790aee8013eef58357e677fd82f5a0f"
+        },
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "d8902d82ec35a20f16c46cfdaf3353b6a6c0398a2629f7bbaff00ee149d4ea36"
+        },
+        {
+          "cell_1based": 22,
+          "cell_type": "code",
+          "source_sha256": "10af2e9e4859dd9d0349a1a88a57c24fc4cacbe64e87eb000b4aad3421b1d731"
+        },
+        {
+          "cell_1based": 26,
+          "cell_type": "code",
+          "source_sha256": "7c43f22a1245401b18cad9d28b893e38dd460e6f775267d11d18490c9fa50edc"
+        }
+      ],
+      "file_sha256": "5cd76fa6a7a8cdaed29e7f5f237ba3e6f016d2464973c410547f61b53639ef97",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W07",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/07강_코퍼스에_심은_간접_인젝션(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 16,
+          "cell_type": "code",
+          "source_sha256": "aab18fb08ff1742399d6d082b93f0b57469a7146d26ce596f201e56bc602bf59"
+        },
+        {
+          "cell_1based": 17,
+          "cell_type": "code",
+          "source_sha256": "92aafb94c12a9bb3f6018da53deb1c650543b60976cc08ad613e21160a3bfa59"
+        },
+        {
+          "cell_1based": 23,
+          "cell_type": "code",
+          "source_sha256": "4d61348e76189a9eb970bccaf219b8112c11b7736d5c0fd9a3f79316d84ab5d9"
+        },
+        {
+          "cell_1based": 27,
+          "cell_type": "code",
+          "source_sha256": "9ee827c86b3ec6d924a1d0c229245a5b11c2feeece7032f9b199b76a33339665"
+        }
+      ],
+      "file_sha256": "76117136c1e1b5514a2e620c65b1fa59e635f5e4c7d76df49d6037ea5c3c5c14",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W08",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/08강_출처_유출과_권한_경계(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 15,
+          "cell_type": "code",
+          "source_sha256": "ccf49277e2ab35ae8bcb4db7d5cb3a3135e4875f03d27685d6276c6b5d52fe52"
+        },
+        {
+          "cell_1based": 35,
+          "cell_type": "code",
+          "source_sha256": "cf4f95a3ccf6af32890a921db166e843afcd49c203cab663ec02455df0ad4b19"
+        },
+        {
+          "cell_1based": 47,
+          "cell_type": "code",
+          "source_sha256": "df26b8133ecdf451bfda767aeff1c18185c904b04005bf0cafa60a5b6ad77152"
+        }
+      ],
+      "file_sha256": "91b169358773c636bedd0fa6a2a9ac3a8b37cde95b2650a4471cfd01b10dc40f",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W09",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/09강_red_team_실습(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 25,
+          "cell_type": "code",
+          "source_sha256": "a2937bca047105e0fee81e101c43edbba6544f7a130200298b6553517bb888b7"
+        },
+        {
+          "cell_1based": 29,
+          "cell_type": "code",
+          "source_sha256": "0e4b7fdc968eaf1d70bd54ac339c8edc4c4330dab651a97e1f91ecac889efe5b"
+        }
+      ],
+      "file_sha256": "a1178253096125312bd05cff51ca7f8ed80be1cf4a76f41e9e92192bbecb6792",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W10",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/10강_fastapi_서비스에_RAG_얹기_1(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 15,
+          "cell_type": "code",
+          "source_sha256": "0fee053ec406e339d789736c3faa7226c953abe901116cb4cc43079adec53df6"
+        },
+        {
+          "cell_1based": 22,
+          "cell_type": "code",
+          "source_sha256": "867d043245e2d2604c57615d9514cdd2ad99d3d14e4a7a762369eb39cd60ae5e"
+        },
+        {
+          "cell_1based": 25,
+          "cell_type": "code",
+          "source_sha256": "34352fd30a4db2a05cf4b895be79281437cde815aed4da2c3bc76e8739a05757"
+        }
+      ],
+      "file_sha256": "6d3c7a31bf0e0a492196014aea3eae2d67cff9b932bdfcbb5f5c8009e087f727",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W11",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/11강_fastapi_서비스에_RAG_얹기_2_trace와_비용(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 17,
+          "cell_type": "code",
+          "source_sha256": "aeea96ecc10eca1be9bacfc801180cae6764364ba234108ffc5ae9186ff577a1"
+        },
+        {
+          "cell_1based": 20,
+          "cell_type": "code",
+          "source_sha256": "7fd31cc550e87fac1e33d387fa2aebe9ebbedc6e256997c75d40504a93f09cbe"
+        },
+        {
+          "cell_1based": 26,
+          "cell_type": "code",
+          "source_sha256": "fa547ed5d9e96574904fb764c791fe498e1381e5a06d06747233750577c51da2"
+        }
+      ],
+      "file_sha256": "e131cec55c195d4d621806f8e2f5ed0d13d2300c9a749e23cd2be7fe2d897929",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W12",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/12강_벡터DB를_바꿀_때_검색이_조용히_0개를_돌려준다(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 18,
+          "cell_type": "code",
+          "source_sha256": "5e1f84361f201139b6944bedbcf7f1da6fec2482484d5fbaf686267a1625d4ad"
+        },
+        {
+          "cell_1based": 33,
+          "cell_type": "code",
+          "source_sha256": "fd11fea0859a4e1bf4073f89857c66ac8791fb46807881ba376429f00ef15eb6"
+        },
+        {
+          "cell_1based": 37,
+          "cell_type": "code",
+          "source_sha256": "8f3c2f1e1f8abcefef612d8afaa27b2c19c062deb71e3a83e882d32a3eeb1a8e"
+        },
+        {
+          "cell_1based": 40,
+          "cell_type": "code",
+          "source_sha256": "8653737388e85a17a2c5d2971f8ba8e6235178eb4dbd153a0a7773e794c7684b"
+        },
+        {
+          "cell_1based": 57,
+          "cell_type": "code",
+          "source_sha256": "4b8bbc10ee43a4a1dc5444ae7e7f78aa9c5b93e3a1d8ff4442459b0407558929"
+        }
+      ],
+      "file_sha256": "efa7f0a54053f15d10e8c3306150e75f9e4a256f21e706e78b88e6a6ad80aa3b",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W13",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/13강_시작_전_확인(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 16,
+          "cell_type": "code",
+          "source_sha256": "ee2019740d23f65d04fbac0e18b0ded39e946f746f4d3eae683bd966682da61e"
+        },
+        {
+          "cell_1based": 19,
+          "cell_type": "code",
+          "source_sha256": "6222ab8522c6ef5e1b2a34e30b3b3f6408d930dec2b0232ceca680604b986d72"
+        },
+        {
+          "cell_1based": 22,
+          "cell_type": "code",
+          "source_sha256": "95bada93da15bf02bcb98e591db9cc7ee17426a72bff09e18e97f25369ac7150"
+        },
+        {
+          "cell_1based": 28,
+          "cell_type": "code",
+          "source_sha256": "788a0312b0fdb74946d107dbb43ed215ae82159cf923c7b5ffd7adabd0a836cc"
+        }
+      ],
+      "file_sha256": "93d4eba288deebd109c89535d392f1f3ff2e465f9c9c64a0a83488cb53c058e5",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W14",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/14강_단일_에이전트가_무너지는_지점(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 14,
+          "cell_type": "code",
+          "source_sha256": "74d0a2d711b585bd484ac313864f8426812db171775e813af63b5fa450bb5e20"
+        },
+        {
+          "cell_1based": 23,
+          "cell_type": "code",
+          "source_sha256": "892bea759ee829b669782fe9adabf3813d3bec9b04340115581b1426c5f563ce"
+        },
+        {
+          "cell_1based": 24,
+          "cell_type": "markdown",
+          "source_sha256": "64c3a3ff73f5afe54b91007d7c8c5d6f95454a2b4a020ab632e347fae0ba5463"
+        }
+      ],
+      "file_sha256": "5a01ab7fcafac91e9cfbf8527ccdaf326a826837581444387aea71b6f43eeae3",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W15",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/15강_Supervisor를_StateGraph로_직접(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 15,
+          "cell_type": "code",
+          "source_sha256": "a914ee83f6656ba56763ab79a3cfec6c93bac89c7782c30dc81f00e254413c74"
+        },
+        {
+          "cell_1based": 17,
+          "cell_type": "code",
+          "source_sha256": "2fcb1e32e9748c53e5f6f2954b2e3159ace553576a44d7326b1069bcb57149b7"
+        },
+        {
+          "cell_1based": 22,
+          "cell_type": "code",
+          "source_sha256": "b7da77fbe929a61ae9c621392199c8edfc5e819bc21e6477452240aaff1b53a5"
+        }
+      ],
+      "file_sha256": "fcff229d431ec3c5c839037f20d3bb7f81836e2add942eb0a62519a9b708fe12",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W16",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/16강_서브에이전트_컨텍스트_격리(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 22,
+          "cell_type": "code",
+          "source_sha256": "03f043f9b1e8615ba315ed2c5b7d005cd7ce87d329a4bfa2c92796342bb20d85"
+        },
+        {
+          "cell_1based": 24,
+          "cell_type": "code",
+          "source_sha256": "ff7affe3af505bf5e8d6b2ce562319ace323a1e691499be9e2e1ade8f186c37c"
+        },
+        {
+          "cell_1based": 28,
+          "cell_type": "code",
+          "source_sha256": "55cfd4fb7710a536ea884a19dd7d42f80b968ba173014b11564e5fbfb70320a4"
+        },
+        {
+          "cell_1based": 38,
+          "cell_type": "code",
+          "source_sha256": "700e76558e5c992d98b93f3b595a9c41d888a39b4c72ad6dca45e07c93224bf9"
+        }
+      ],
+      "file_sha256": "f2a2ac24cc562c1fc64c311aa32dbc7f0c15b3d14890504aaf7fb0991f36a82d",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W17",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/17강_Deep_Agents_하네스(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 23,
+          "cell_type": "code",
+          "source_sha256": "d0262cb159b7c5c0808a21dfa7ac29ce63c3f87b54ebe341f02c3f18f5614bfa"
+        },
+        {
+          "cell_1based": 29,
+          "cell_type": "code",
+          "source_sha256": "fa91bc1b5e77b8e74686b9089f311f5aeb4bc84516040d272d93385135812317"
+        },
+        {
+          "cell_1based": 30,
+          "cell_type": "markdown",
+          "source_sha256": "cbde8ccfc8e4621c40bf96a62d0545a613a70b13b71b241365abbbf08f3b9970"
+        },
+        {
+          "cell_1based": 31,
+          "cell_type": "markdown",
+          "source_sha256": "eb57bd587718f587478595e52bda753e2c3151322bc2f2f2c92b89d6d8152a77"
+        },
+        {
+          "cell_1based": 33,
+          "cell_type": "markdown",
+          "source_sha256": "5db5f4d1757d524fd5b464fc6365ddc390d5cf1775b8792ced97f14292d483ac"
+        }
+      ],
+      "file_sha256": "a68f24baed58a6359c4772bb912174d60f6eebb4aacb6686399a54a75176ce86",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W18",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/18강_벡터_그래프_MCP_통합(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 17,
+          "cell_type": "code",
+          "source_sha256": "5e0a615c3d55df21756ba768cbe9133e920eb645800fac4796250873a8073557"
+        },
+        {
+          "cell_1based": 21,
+          "cell_type": "code",
+          "source_sha256": "e503703ba32562178eb208b23757e1f47c0ec3f052726b5549601d79ff891c1b"
+        },
+        {
+          "cell_1based": 25,
+          "cell_type": "code",
+          "source_sha256": "df133e62e6a7497f1b843d32b7acea8d36398dfe15bd40faa61570b66ccd5dd3"
+        },
+        {
+          "cell_1based": 28,
+          "cell_type": "code",
+          "source_sha256": "83de6ab97c8aef47b40f1499f519302224d381fc658b6adc25334fe12ae29c68"
+        }
+      ],
+      "file_sha256": "5b5b4cadf35eed706d67f710fbb367319533290db40506144ab8b31fb3c1d6f1",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W19",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/19강_통합_데모데이_3분(AI_Pair).ipynb",
+      "kind": "notebook",
+      "cells": [
+        {
+          "cell_1based": 24,
+          "cell_type": "code",
+          "source_sha256": "788c3a7a61a438bfbf4e3803ca150ee45ff81ac2ecc29698a6bee88ebe3f0c7e"
+        },
+        {
+          "cell_1based": 29,
+          "cell_type": "code",
+          "source_sha256": "3c0a8ea15505c09d047bd60a34c174bf592ccf383e84d974f786c1af62e5c310"
+        },
+        {
+          "cell_1based": 36,
+          "cell_type": "code",
+          "source_sha256": "29e274a80e9696c8c014ebb15437b29669b31e9a7773673997abf639e88cdb64"
+        },
+        {
+          "cell_1based": 40,
+          "cell_type": "code",
+          "source_sha256": "2b1302d34c61d16510fc419cb8a770e1452afe33b9dad6ff468c9de2c5011953"
+        },
+        {
+          "cell_1based": 43,
+          "cell_type": "markdown",
+          "source_sha256": "3ed9179489dfb08471857beaa780cf024939b9975daa44019bf0b3d97a7dc7a7"
+        },
+        {
+          "cell_1based": 44,
+          "cell_type": "code",
+          "source_sha256": "a90cea8a6fecf54c23a5fbf7b368c4845721a3b8ebbd7b62370467f7928d47e0"
+        },
+        {
+          "cell_1based": 45,
+          "cell_type": "code",
+          "source_sha256": "3a2a980fdd27df3a20ee285494c9273a137f0ade6e8076b8415990450c7c6189"
+        },
+        {
+          "cell_1based": 46,
+          "cell_type": "code",
+          "source_sha256": "e48bfb17e695cfaf9fad2c161d9b82b18b42b36f97d828fced15d781e5e7ada8"
+        },
+        {
+          "cell_1based": 52,
+          "cell_type": "code",
+          "source_sha256": "881a0fff2820238f936a5d56c6d4ae7c20c24b60a3095e0d71f179fbb49daf15"
+        }
+      ],
+      "file_sha256": "c9cbf4b975ec8c0a26d1fa52b390850e57d2f254ef23be55d0453900cf749028",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W-README",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/README.md",
+      "kind": "md",
+      "location": "배포 범위01~19·LIGHT/FULL·원래19~24제외/25→19 번호변경",
+      "file_sha256": "cba424d9f2fd963d5c7cb815ef73eddbe814949989076d69b76e8f018d6aa1e0",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W-APP",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/rag_service/app.py",
+      "kind": "py",
+      "location": "require_key·ChatRequest/Response·/health·/chat·/_stats",
+      "file_sha256": "c346173d352135f9c8edb0030c3cbe2c7fa73cceb284ef23c03c0027b0f2487e",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W-CORE",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/rag_service/rag_core.py",
+      "kind": "py",
+      "location": "retrieve/compare·search_fn·chat_with_trace의 실제타이머",
+      "file_sha256": "7cd4fdd314b726462b0c4ddd8637630e03a2bbcd0f0aa807bb3e594bd78fcd42",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W-MAIN",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/rag_service/main.py",
+      "kind": "py",
+      "location": "lifespan·실제 클라이언트 연결·키필수·단일프로세스 한계",
+      "file_sha256": "3ee3c32136af42b5911dbdafc1544375ff22410291df40509124d66ee5ae42fe",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    },
+    {
+      "id": "W-TRACE",
+      "path": "4. RAG Langgraph/3. 멀티에이전트 오케스트레이션/rag_service/lf_trace.py",
+      "kind": "py",
+      "location": "enabled/send/flush·cost_details/usage_details·실제latency는metadata",
+      "file_sha256": "3e8c26663e9e680fc020ad1bf1d782f9f84e94013672e6832bc36fcae4989dc8",
+      "review_date": "2026-10-28",
+      "git_tracked": false
+    }
+  ],
+  "prior_reviews": [
+    {
+      "review_date": "2026-10-26",
+      "course_git_head": "e4d178fd0ce76c95565fc8dcb98458c8abe9e264",
+      "source_count": 69
+    }
+  ],
+  "update_notes": [
+    "Week3 files are currently untracked in the course Git repository; preserved without staging/committing.",
+    "11 existing document-pipeline file fingerprints changed; selected source-cell changes are recorded as prior fingerprints. Source cell positions and referenced function identities rechecked; notebooks not executed.",
+    "No week3 CI YAML, Dockerfile or Compose files found."
+  ],
+  "distribution_reference": {
+    "repository": "https://github.com/nanocode00/AI_Human_7th",
+    "commit": "0097f0e2d3cd1f4fab1b53ec80e45b9dfdf62bad",
+    "note": "Reference links only; original review hashes and dates are preserved. Compare before reuse."
+  }
+}
