@@ -1,5 +1,0 @@
-# Preserve captured project-guide source bytes.
-docs/project-guide/sources/*.html -text -diff
-docs/project-guide/sources/*.txt -text -diff
-docs/project-guide/sources/notion-*.md -text -diff
-docs/project-guide/sources/*.pdf -text -diff
